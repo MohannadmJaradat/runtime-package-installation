@@ -33,3 +33,5 @@ Set your package URL in `prod.env`:
 ```env
 PACKAGE_URL=https://files.pythonhosted.org/packages/py2.py3/s/six/six-1.17.0-py2.py3-none-any.whl
 ```
+
+⚠️ **Security Note**: Never commit `prod.env` to version control. It contains sensitive information.
