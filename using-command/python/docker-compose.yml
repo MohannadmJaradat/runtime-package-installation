@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  app:
+    image: python:3.11-slim
+    container_name: runtime_package_demo
+    command: bash -c "pip install --upgrade --no-cache-dir https://files.pythonhosted.org/packages/py2.py3/s/six/six-1.17.0-py2.py3-none-any.whl && python3 -c 'import six; print(six.__version__)'"
