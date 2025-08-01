@@ -97,4 +97,6 @@ docker compose exec airflow-webserver pip list
 
 ## 🤝 Contributing
 
+⚠️ **Security Note**: Never commit `prod.env` to version control. It contains sensitive information.
+
 Feel free to submit issues and enhancement requests!
