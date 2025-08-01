@@ -2,6 +2,13 @@
 
 This repository demonstrates two approaches for installing Python packages at runtime in Docker containers:
 
+## 📋 Versions
+
+- Python: 3.8+
+- Apache Airflow: 2.7.1
+- Docker Engine: 20.10+
+- Docker Compose: 2.0+
+
 ## 📁 Project Structure
 
 ```
